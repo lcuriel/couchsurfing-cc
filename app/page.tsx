@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     async function fetchUsers() {
-        const response = await fetch('/api/users');
+        const response = await fetch('/api/users', { cache: 'force-cache' });
         const usersData = await response.json();
         setUsers(usersData.data);
     }
