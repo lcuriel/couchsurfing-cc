@@ -4,8 +4,7 @@ export async function fetchRandomUserAPI(): Promise<User[]>{
     const response = await fetch('https://randomuser.me/api/?results=10');
     const data = await response.json();
     const users = transformUsers(data);
-    addRelatives(users);
-    return addRelatives(users);
+    return users;
 }
 
 export function transformUsers(data: any[]){
@@ -21,12 +20,18 @@ export function transformUsers(data: any[]){
         email: result.email,
         phone: result.phone,
         cell: result.cell,
-        picture: result.picture.medium,
+        picture: result.picture.large,
         relatives: []
     }));
-    return usersTransformed;
+    const usersWithRelatives = addRelatives(usersTransformed);
+    return usersWithRelatives;
 }
 
-function addRelatives(users: Users[]){
-    return users;
+function addRelatives(users: User[]){
+    const usersWithRelatives: User[] = users.map((user: User)=> {
+        const min = Math.floor(Math.random() * 9)+1;
+        const max = Math.floor(Math.random() * 9) + min;
+        return <User>{ ...user, relatives: users.slice(min, max) }
+    });
+    return  usersWithRelatives;
 }
