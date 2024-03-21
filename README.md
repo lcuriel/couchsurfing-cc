@@ -20,17 +20,36 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Resources Used
+### INSTALL AND LEARN ABOUT THE ROUTES
+	https://nextjs.org/docs/getting-started/installation
+	https://github.com/vercel/next.js/tree/canary/examples/api-routes
+	https://github.com/vercel/next.js/tree/canary/examples/api-routes-rest
+	https://github.com/vercel/next.js/tree/canary/examples
 
-To learn more about Next.js, take a look at the following resources:
+### UNDERSTAND NEXT.JS
+	https://www.educative.io/courses/next-js-build-react-apps
+	https://nextjs.org/learn/react-foundations/displaying-data-with-props
+	https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### TUTORIALS
+	https://www.youtube.com/watch?v=jMy4pVZMyLM
+	https://www.youtube.com/watch?v=wm5gMKuwSYk&list=PL6QREj8te1P7gixBDSU8JLvQndTEEX3c3
+	https://www.youtube.com/watch?v=ZVnjOPwW4ZA&t=2115s
+	
+### FIX PROBLEMS WITH PROPS
+	https://dev.to/elhamnajeebullah/react-typescript-what-is-reactfc-and-why-should-i-use-it-4029
+	https://nextjs.org/docs/app/api-reference/functions/next-response
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### FIX GLOBAL PROPS
+    https://blog.logrocket.com/data-fetching-next-js-getserversideprops-getstaticprops/
+    https://template.nextjs.guide/docs/pages/building-your-application/data-fetching/get-server-side-props
+    https://nextjs.org/docs/pages/building-your-application/data-fetching
+    https://www.slingacademy.com/article/next-js-using-getserversideprops-with-typescript/
+    
+### FIX PROBLEMS WITH UI
+	https://nextjs.org/docs/messages/next-image-unconfigured-host
+	https://tailwindcss.com/docs/hover-focus-and-other-states
+	https://nextjs.org/docs/pages/api-reference/components/image
+	https://github.com/vercel/next.js/discussions/18311
+	https://stackoverflow.com/questions/64909447/got-an-error-invalid-src-prop-here-is-a-link-on-next-image-hostname-loca

@@ -23,11 +23,3 @@ export default function Home() {
     </main>
   );
 }
-
-
-
-export async function fetchGlobalProps(): Promise<GlobalProps> {
-  return {
-    users: await productsApi.getAll(),
-  };
-}
